@@ -24,3 +24,6 @@ label {
     font-family: OpenSans;
     color: white;
 }
+input {
+    color: black;
+}
