@@ -34,3 +34,13 @@ label {
 input {
     color: black;
 }
+footer{
+    padding: 5%;
+}
+
+.logo {
+    text-align: center;
+    max-height: 50px;
+    display: block;
+    margin: 0 auto; 
+}
