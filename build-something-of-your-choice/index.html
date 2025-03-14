@@ -16,15 +16,17 @@
         <div>
             <h1> Registration Form</h1>
             <form action="results.html" method="GET">
-                <label>First Name</label>
-                <input name="first name">
-                <label>Last Name</label>
-                <input name="last name">
+                <label for="first">First Name</label>
+                <input type="text" name="name" ID="first" placeholder="First Name" required>
+                <label for="last">Last Name</label>
+                <input type="text" name="last" ID="last" placeholder="Last Name" required>
                 <label>Email</label>
-                <input name="email">
+                <input type="email" name="email" placeholder="example@gmail.com" required>
+                <label>Date Available:</label>
                 <label>Password</label>
-                <input name="password">
-                <button>Submit</button>>
+                <input type="password" name="password" required>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>>
             </form>
         </div>
         
