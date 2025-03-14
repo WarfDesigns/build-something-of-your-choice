@@ -23,8 +23,16 @@
                 <label>Email</label>
                 <input type="email" name="email" placeholder="example@gmail.com" required>
                 <label>Date Available:</label>
-                <label>Password</label>
-                <input type="password" name="password" required>
+                <input type="date" name="date" name="date_available" id="date_available" required>
+                <label>Appointment is for:</label>
+                <input type="text" name="message" id="message" required>
+                <div>
+                    <label for="emergency">Emergency Appointment</label>
+                    <input type="checkbox" name="emergency" id="emergency">
+                    <br>
+                    <label for="follow-up">Follow-Up Appointment</label>
+                    <input type="checkbox" name="follow-up" id="follow-up">
+                </div>
                 <div>
                     <button type="reset">Reset</button>
                     <button type="submit">Submit</button>
