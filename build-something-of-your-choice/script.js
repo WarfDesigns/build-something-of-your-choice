@@ -16,8 +16,8 @@ if (window.location.pathname.includes('results.html')) {
         <p>Please submit the form on the previous page.</p>
     `;
     }
-console.log(:All submitted parameters:");
-    urlParams.forEach(value,key) => {
+    console.log("All submitted parameters:");
+    urlParams.forEach((value,key) => {
     console.log(`$(key): ${value}`);
     });
     
