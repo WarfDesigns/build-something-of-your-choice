@@ -6,8 +6,8 @@ if (window.location.pathname.includes('results.html')) {
     const resultsDiv = document.getElementById('results')
     if (first && last) {
         resultsDiv.innerHTML = `
-        <p><strong>Name:</strong> ${first}</p>
-        <p><strong>Age:</strong> ${last}</p>
+        <p><strong>First Name:</strong> ${first}</p>
+        <p><strong>Last Name:</strong> ${last}</p>
         <p><em>These values were retrieved from the URL query parameters.</em></p>
     `;
     } else {
