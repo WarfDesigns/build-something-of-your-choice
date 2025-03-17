@@ -8,7 +8,8 @@ if (window.location.pathname.includes('results.html')) {
     const dateAvailable = urlParams.get('date_available');
     const appointmentDetails = urlParams.get('appointment_details');
     const emergency = urlParams.get('emergency');
-    const followUp = urlParams.get('follow_up');
+    const followUp = urlParams.get('follow-up');
+    const textarea = urlParams.get('textarea');
 
     const resultsDiv = document.getElementById('results')
     if (first) {
@@ -20,6 +21,7 @@ if (window.location.pathname.includes('results.html')) {
         <p>Appointment Details: ${appointmentDetails}</p>
         <p>Emergency Appointment: ${emergency ? "Yes" : "No"}</p>
         <p>Follow-Up Appointment: ${followUp ? "Yes" : "No"}</p>
+        <p>Description for Appointment: ${textarea}</p>
         <p><em>These values were retrieved from the URL query parameters.</em></p>
     `;
     } else {

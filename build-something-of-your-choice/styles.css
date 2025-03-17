@@ -44,4 +44,12 @@ footer{
     display: block;
     margin: 0 auto; 
 }
-.red {color: red;}
+.red {color: red;
+}
+#results {
+    color: black;
+    background-color: white;
+}
+#button {
+    margin-top: 5%;
+}
